@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+body {
+	height: 100vh;
+	margin: 0;
+	font-family: 'Poppins', arial;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {width: 80%;}
+/*---------BASE PAGE---------*/
+.navbar{
+	background: #fff!important;
+	width: 100%;
+}
+
+.navbar-brand{ font-weight: bold; }
+
+.nav-link{ color: #000!important; }
+
+.nav-link:hover { color: #B45F04!important; }
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+/*----------FOOTER----------*/
+.footer-top {
+	padding: 60px 0; 
+	background: #FAFAFA!important;
+	text-align: left;
+}
+.footer-top h3, .foot-top h4 {
+	padding-bottom: 10px;
+	color: #585858;
+	font-weight: bold;
+}
+
+.footer-top p, .footer-contact p { word-break: break-word; }
+.footer-contact i { 
+	padding-right: 10px;
+	font-size: 18px;
+	color: #585858;
+ }
+
+ .footer-contact p a { 
+ 	color: #aaa; 
+ 	border-bottom: 1px dashed #666; 
+ }
+
+.footer-social a { 
+	display: inline-block; 
+	margin-right: 10px; 
+	margin-bottom: 8px; 
+	color: #777; 
+	border: 0; 
+}
+
+.footer-social i { 
+	font-size: 24px; 
+	vertical-align: middle; 
+}
+
+.fa-facebook-square { color: #3B5998; }
+.fa-twitter-square { color: #00ACEE; }
+.fa-google-plus-square { color: #DB4A39; }
+.fa-pinterest-square { color: #E60023;}
+.fa-youtube-square { color: #FF0000; }
+
+/*----------MENU----------*/
+.container h4, h5, p {
+    font-weight: bold;
+}
+.price{color: #B45F04; font-weight: bold; text-align: left;}
+
+/*----------card----------*/
+.loginhere {
+  color: #555;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.login, .submit {
+  font-weight: bold;
+  color: #2979FF; 
+}
+
+label{
+    font-size: 15px;
+}
+
+.fa-cc-visa { color: #172274; font-size: 35px; }
+.fa-cc-amex { color: #007bc1; font-size: 35px; }
+.fa-cc-mastercard { color: #eb001b; font-size: 35px; }
+.fa-cc-paypal { color: #3b7bbf; font-size: 35px; }
+
+/*---------cart---------*/
+
+.quantity {
+    width:3em;
+    text-align: right;
+}
